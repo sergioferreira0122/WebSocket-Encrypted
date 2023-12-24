@@ -1,0 +1,6 @@
+<XML>
+    <alphabet>UPPER+DIGITS</alphabet> <!-- options(combination): UPPER, DIGITS, PUNCTUATION -->
+    <encryption-key hint="rotation value" value-type="Int" min-value="1" max-value="alphabet-size"> 25 </encryption-key>
+    <increment-factor hint="increment factor" value-type="Int" min-value="1" max-value="alphabet-size-1"> 10 </increment-factor>
+    <plugboard hint="Every resulting character MUST only be obtain via 1 original character. Every character should be mapped in the plugboard for consistency even if its unchanged. e.g.: 'B' : 'B'"> {'L': 'D', 'A': 'S', 'B': 'Q', 'P': 'Z', 'X': 'Y', 'T': 'C', 'E': 'V', 'J': 'M', 'F': 'K', 'N': 'H', 'R': 'O', 'U': 'I', 'W': 'G', 'D': 'L', 'S': 'A', 'Q': 'B', 'Z': 'P', 'Y': 'X', 'C': 'T', 'V': 'E', 'M': 'J', 'K': 'F', 'H': 'N', 'O': 'R', 'I': 'U', 'G': 'W'} </plugboard>
+</XML>
